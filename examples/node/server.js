@@ -5,7 +5,8 @@ var fs = require('fs'),
     net = require('net'),
     mime = require('mime'),
     deflate = require('permessage-deflate'),
-    NodeAdapter = require('../../lib/adapters/node_adapter');
+    NodeAdapter = require('../../lib/index.js').NodeAdapter;
+    //NodeAdapter = require('../../lib/adapters/node_adapter.js');
 
 var SHARED_DIR = __dirname + '/..',
     bayeux = new NodeAdapter({mount: '/bayeux', timeout: 2000}),
