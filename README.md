@@ -1,6 +1,6 @@
 # SimplePubSub
 
-这是一个参考 https://github.com/faye/faye 的简单的pub/sub系统, 只实现服务端部分.  
+这是一个参考[faye](https://github.com/faye/faye)的简单的pub/sub系统, 只实现服务端部分.  
 ### 关于测试  
 * 可以使用curl测试HTTP接口  
 * 可以使用telnet测试TCP接口  
