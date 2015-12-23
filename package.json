@@ -1,0 +1,32 @@
+{
+  "name": "simple-pubsub",
+  "version": "1.0.0",
+  "description": "a simple pub-sub system",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "faye-websocket": "^0.10.0",
+    "uuid": "^2.0.1",
+    "mime": "^1.3.4",
+    "permessage-deflate": "^0.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiangzhuo/SimplePubSub.git"
+  },
+  "keywords": [
+    "pubsub"
+  ],
+  "author": "jiangzhuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jiangzhuo/SimplePubSub/issues"
+  },
+  "homepage": "https://github.com/jiangzhuo/SimplePubSub"
+}
