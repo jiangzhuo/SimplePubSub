@@ -8,7 +8,7 @@
 * 所有接口数据格式均为json
 
 ### 服务端结构  
-参考下图
+参考下图  
 ![服务端结构](http://faye.jcoglan.com/images/faye-internals.png)
 
 ### 特点  
