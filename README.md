@@ -35,7 +35,7 @@
 使用clientId注册一个链接,如果已经有链接可以用于表示心跳  
 * **channel**  
 * **clientId** 握手分配的id  
-* **connectionType* 链接接口类型  
+* **connectionType** 链接接口类型  
 * **id**
 
 #### /meta/subscribe  
