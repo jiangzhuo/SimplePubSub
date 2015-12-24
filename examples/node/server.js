@@ -5,9 +5,10 @@ var fs = require('fs'),
     net = require('net'),
     mime = require('mime'),
     deflate = require('permessage-deflate'),
-    NodeAdapter = require('../../lib/index.js').NodeAdapter;
-    //NodeAdapter = require('../../lib/adapters/node_adapter.js');
+    simplePubSub = require('../../lib/index.js'),
+    NodeAdapter = simplePubSub.NodeAdapter;
 
+simplePubSub.logger = console.log;
 var SHARED_DIR = __dirname + '/..',
     bayeux = new NodeAdapter({mount: '/bayeux', timeout: 2000}),
     port = process.argv[2] || '8000',
