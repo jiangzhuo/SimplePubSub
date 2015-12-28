@@ -12,9 +12,13 @@
     "mime": "^1.3.4",
     "permessage-deflate": "^0.1.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
+    "should": "^8.0.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test/* -- --recursive --report spec"
   },
   "repository": {
     "type": "git",
